@@ -77,12 +77,14 @@ The [home-lab roadmap](https://github.com/markpierotti/asus-router-telemetry/blo
 separates the released experimental telemetry milestone from planned detection,
 alert-triage and response workflows. A deployed SOC remains future work.
 
-### Planned: Project Limbo
+### Planned: Project Limbo — networking art
 
-A visual networking and cybersecurity lab exploring IoT segmentation and traffic
-monitoring. A simulated noisy device will support controlled comparisons of
-traffic visibility, isolation and detection. Planned: no completed lab results
-are claimed yet.
+**What if a noisy smart coffee machine got sent to Inception’s Limbo?**
+
+A planned networking art experiment: a simulated IoT coffee machine inside an
+Inception-inspired lab topology. The visual theme makes the boundaries memorable;
+the engineering will measure traffic visibility, isolation and detection through
+controlled experiments. No completed lab results are claimed yet.
 
 ## Interests and opportunities
 
