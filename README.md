@@ -30,6 +30,11 @@ human decisions, reproduced findings and what remains unproven.
 
 ## Other projects
 
+### [Soul Eats Kitchen](https://souleatskitchen.org)
+
+Developed the live website for a community meal initiative. The site presents its
+mission, outreach and catering information, with donation and support options.
+
 ### Self-exclusion application and desktop rebuild
 
 A completed local HTML/JavaScript application for managing self-exclusion records,
