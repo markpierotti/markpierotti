@@ -1,5 +1,7 @@
 # Mark Pierotti
 
+*Following shower thoughts down the AI drainpipe to see what congeals on the other side—then giving it tests, documentation and acceptance criteria.*
+
 I’m studying a **Bachelor of Information Technology**, majoring in **Networking
 and Cybersecurity**, with a target completion date of **May 2027**.
 
