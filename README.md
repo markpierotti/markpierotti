@@ -34,27 +34,29 @@ human decisions, reproduced findings and what remains unproven.
 
 ### [Soul Eats Kitchen](https://souleatskitchen.org)
 
-Developed the live website for a community meal initiative. The site presents its
+I developed the live website for a community meal initiative. The site presents its
 mission, outreach and catering information, with donation and support options.
 
 ### Self-exclusion application and desktop rebuild
 
-A completed local HTML/JavaScript application for managing self-exclusion records,
-preparing forms and supporting a separate read-only viewer, packaged with a Go
-launcher. A Tauri/Rust and React/TypeScript desktop rebuild is in development.
+My self-exclusion project includes a completed local HTML/JavaScript application
+for managing records, preparing forms and supporting a separate read-only viewer,
+packaged with a Go launcher. My Tauri/Rust and React/TypeScript desktop rebuild
+is in development.
 
-Private project. A future sanitized case study will document the preserved
-original, engineering decisions, testing and the transition between implementations.
+The project is private. I plan to write a sanitized case study documenting the
+preserved original, engineering decisions, testing and the transition between
+implementations.
 
 ### Herbert Tipping
 
-Sports tipping application in development with Next.js, TypeScript and Supabase.
+I’m developing a sports tipping application with Next.js, TypeScript and Supabase.
 The work includes authentication, competition-rule clarification, scoring review
 and user-interface design. It is not presented as a deployed service.
 
 ### Hermes Venture Studio
 
-A local AI-assisted development workflow covering product intake, scoped roles,
+My local AI-assisted development workflow covers product intake, scoped roles,
 isolated worktrees, review gates and a shared evidence-based learning register.
 I’m preparing a case study of the workflow’s mechanisms, corrections and limits.
 
@@ -64,8 +66,8 @@ I aim to make engineering claims traceable to source, tests and observed behavio
 I use AI tools openly, reproduce failures, preserve evidence and distinguish
 successful trials from broader reliability claims.
 
-Current learning focus: Linux process handling, defensive parsing, embedded
-telemetry and reproducible deployment. Next project milestone: a Linux-host
+I’m currently focusing on Linux process handling, defensive parsing, embedded
+telemetry and reproducible deployment. My next project milestone is Linux-host
 integration and longer-running validation.
 
 ## Home Lab & Security Operations
@@ -83,8 +85,8 @@ alert-triage and response workflows. A deployed SOC remains future work.
 
 **What if a noisy smart coffee machine got sent to Inception’s Limbo?**
 
-A planned networking art experiment: a simulated IoT coffee machine inside an
-Inception-inspired lab topology. The visual theme makes the boundaries memorable;
+I’m planning a networking art experiment: a simulated IoT coffee machine inside
+an Inception-inspired lab topology. The visual theme makes the boundaries memorable;
 the engineering will measure traffic visibility, isolation and detection through
 controlled experiments. No completed lab results are claimed yet.
 
@@ -95,5 +97,5 @@ controlled experiments. No completed lab results are claimed yet.
 - Embedded Linux, reverse engineering and useful hardware repurposing.
 - Practical application development, reproducible tests and documented evidence.
 
-Interested in graduate or junior networking and cybersecurity roles, and junior
+I’m interested in graduate or junior networking and cybersecurity roles, and junior
 applied AI engineering or agent-orchestration opportunities.
