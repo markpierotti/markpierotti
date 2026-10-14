@@ -66,7 +66,18 @@ Current learning focus: Linux process handling, defensive parsing, embedded
 telemetry and reproducible deployment. Next project milestone: a Linux-host
 integration and longer-running validation.
 
-## Planned lab: Project Limbo
+## Home Lab & Security Operations
+
+I’m building a home networking and security lab to investigate device behavior,
+collection failures and traffic containment. ASUS Router Telemetry is the first
+completed component. Linux-host integration and longer-running validation are
+next, followed by network segmentation, traffic monitoring and detection exercises.
+
+The [home-lab roadmap](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/home-lab-roadmap.md)
+separates the released experimental telemetry milestone from planned detection,
+alert-triage and response workflows. A deployed SOC remains future work.
+
+### Planned: Project Limbo
 
 A visual networking and cybersecurity lab exploring IoT segmentation and traffic
 monitoring. A simulated noisy device will support controlled comparisons of
