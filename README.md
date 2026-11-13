@@ -57,7 +57,7 @@ a working backup repair.
 
 ## Other project experience
 
-- **[Soul Eats Kitchen](https://souleatskitchen.org):** developed the live website
+- **[Soul Eats Kitchen](https://souleatskitchen.org):** developed and maintain the live website
   for a community meal initiative, presenting its mission, outreach, catering and
   support options.
 - **Self-exclusion application:** completed an HTML/JavaScript application for
