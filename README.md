@@ -9,7 +9,7 @@ I build practical projects in Python, C and Linux. My interests include embedded
 systems, observability and AI-assisted engineering with clear validation and
 documented limits.
 
-## Featured project
+## Featured projects
 
 ### [ASUS Router Telemetry](https://github.com/markpierotti/asus-router-telemetry)
 
@@ -20,7 +20,7 @@ makes no model calls.
 - Supervised healthy-path trial: 14 successful samples.
 - Separate Ethernet dropout/recovery trial: 18 attempts, 12 successes and six
   expected unreachable outcomes; incident transitions checked at defined thresholds.
-- Linux/macOS CI on Python 3.11 and 3.13: 368 collector tests passed per job, one
+- Experimental-release CI on Linux/macOS with Python 3.11 and 3.13: 368 collector tests passed per job, one
   expected skip, plus reporter checks.
 - [Experimental v0.1.0 release](https://github.com/markpierotti/asus-router-telemetry/releases/tag/v0.1.0)
   · [Case study](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/case-study.md)
@@ -29,6 +29,27 @@ makes no model calls.
 I defined scope and acceptance criteria, operated the physical bench and
 coordinated AI-assisted research, implementation and review. The project records
 human decisions, reproduced findings and what remains unproven.
+
+### [Home Lab — Linux operations and recovery](https://github.com/markpierotti/home-lab)
+
+I run Slim as a Linux home lab for DNS filtering, router telemetry, monitoring,
+alerting and private evidence capture. It connects the router project to an
+operating environment with Pi-hole/Unbound, Prometheus, Grafana and systemd.
+
+- External missing-heartbeat test, 13 November 2026: I confirmed the down alert
+  reached Telegram after the heartbeat was deliberately stopped.
+- Mac backup pull restored: 14 archives checked, with Grafana and Pi-hole SQLite
+  integrity checks. A full restore onto a clean host remains untested.
+- Private evidence tooling: hashed log base/append chains, daily snapshots for two
+  SQLite sources, storage guards and a one-way Mac reading copy.
+
+[Project overview and evidence](https://github.com/markpierotti/home-lab/blob/main/docs/portfolio-copy.md)
+· [Operations runbook](https://github.com/markpierotti/home-lab/blob/main/docs/slim-operations.md)
+· [Roadmap](https://github.com/markpierotti/home-lab/blob/main/docs/home-lab-roadmap.md)
+
+Network segmentation, Project Limbo and detection/investigation exercises remain
+planned. I describe this as a home networking and security lab in development;
+a deployed SOC is future work.
 
 ## Other projects
 
@@ -60,27 +81,6 @@ My local AI-assisted development workflow covers product intake, scoped roles,
 isolated worktrees, review gates and a shared evidence-based learning register.
 I’m preparing a case study of the workflow’s mechanisms, corrections and limits.
 
-## How I work
-
-I aim to make engineering claims traceable to source, tests and observed behavior.
-I use AI tools openly, reproduce failures, preserve evidence and distinguish
-successful trials from broader reliability claims.
-
-I’m currently focusing on Linux process handling, defensive parsing, embedded
-telemetry and reproducible deployment. My next project milestone is Linux-host
-integration and longer-running validation.
-
-## Home Lab & Security Operations
-
-I’m building a home networking and security lab to investigate device behavior,
-collection failures and traffic containment. ASUS Router Telemetry is the first
-completed component. Linux-host integration and longer-running validation are
-next, followed by network segmentation, traffic monitoring and detection exercises.
-
-The [home-lab roadmap](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/home-lab-roadmap.md)
-separates the released experimental telemetry milestone from planned detection,
-alert-triage and response workflows. A deployed SOC remains future work.
-
 ### Planned: Project Limbo — networking art
 
 **What if a noisy smart coffee machine got sent to Inception’s Limbo?**
@@ -89,6 +89,16 @@ I’m planning a networking art experiment: a simulated IoT coffee machine insid
 an Inception-inspired lab topology. The visual theme makes the boundaries memorable;
 the engineering will measure traffic visibility, isolation and detection through
 controlled experiments. No completed lab results are claimed yet.
+
+## How I work
+
+I aim to make engineering claims traceable to source, tests and observed behavior.
+I use AI tools openly, reproduce failures, preserve evidence and distinguish
+successful trials from broader reliability claims.
+
+I’m currently focusing on Linux process handling, defensive parsing, embedded
+telemetry and reproducible deployment. My next Home Lab milestone is a full restore
+rehearsal, followed by controlled restart, power-recovery and longer-running checks.
 
 ## Interests and opportunities
 
