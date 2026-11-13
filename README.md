@@ -1,111 +1,74 @@
 # Mark Pierotti
 
-*Following shower thoughts down the AI drainpipe to see what congeals on the other side—then giving it tests, documentation and acceptance criteria.*
+**Networking, Linux systems and AI-assisted engineering.**
 
 I’m studying a **Bachelor of Information Technology**, majoring in **Networking
-and Cybersecurity**, with a target completion date of **May 2027**.
+and Cybersecurity**, with a target completion date of **May 2027**. I’m interested
+in graduate and junior networking, cybersecurity and applied AI roles.
 
-I build practical projects in Python, C and Linux. My interests include embedded
-systems, observability and AI-assisted engineering with clear validation and
-documented limits.
+I build practical systems and test how they behave when something goes wrong.
+My work combines problem definition, system integration, physical testing and
+AI-assisted implementation, with clear records of decisions, results and limits.
 
-## Featured projects
+## Featured work
 
 ### [ASUS Router Telemetry](https://github.com/markpierotti/asus-router-telemetry)
 
-A temporary ARM C reporter and an external Python standard-library collector make
-a stock ASUS RT-AX56U observable without replacing its firmware. Routine sampling
-makes no model calls.
+Making a stock ASUS router observable without replacing its firmware: a temporary
+ARM C reporter and an external Python SSH collector.
 
-- Supervised healthy-path trial: 14 successful samples.
-- Separate Ethernet dropout/recovery trial: 18 attempts, 12 successes and six
-  expected unreachable outcomes; incident transitions checked at defined thresholds.
-- Experimental-release CI on Linux/macOS with Python 3.11 and 3.13: 368 collector tests passed per job, one
-  expected skip, plus reporter checks.
-- [Experimental v0.1.0 release](https://github.com/markpierotti/asus-router-telemetry/releases/tag/v0.1.0)
-  · [Case study](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/case-study.md)
-  · [Design and limits](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/design.md)
+- **Validated on hardware:** 14 successful healthy-path samples; a separate
+  18-attempt link-loss trial with 12 successes and six expected unreachable outcomes.
+- **Engineering focus:** bounded execution, defensive parsing, verified artifact
+  transfer, incident transitions and explicit cleanup accountability.
+- **My contribution:** scope, acceptance criteria, physical bench operation and
+  direction of AI-assisted research, implementation and review.
 
-I defined scope and acceptance criteria, operated the physical bench and
-coordinated AI-assisted research, implementation and review. The project records
-human decisions, reproduced findings and what remains unproven.
+[C and Python source](https://github.com/markpierotti/asus-router-telemetry)
+· [Case study](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/case-study.md)
+· [Validation and attribution](https://github.com/markpierotti/asus-router-telemetry/blob/main/docs/provenance.md)
 
-### [Home Lab — Linux operations and recovery](https://github.com/markpierotti/home-lab)
+### [Home Lab](https://github.com/markpierotti/home-lab)
 
-I run Slim as a Linux home lab for DNS filtering, router telemetry, monitoring,
-alerting and private evidence capture. It connects the router project to an
-operating environment with Pi-hole/Unbound, Prometheus, Grafana and systemd.
+Operating a Linux environment for DNS filtering, router telemetry, monitoring,
+alert delivery and private evidence preservation.
 
-- External missing-heartbeat test, 13 November 2026: I confirmed the down alert
-  reached Telegram after the heartbeat was deliberately stopped.
-- Mac backup pull restored: 14 archives checked, with Grafana and Pi-hole SQLite
-  integrity checks. A full restore onto a clean host remains untested.
-- Private evidence tooling: hashed log base/append chains, daily snapshots for two
-  SQLite sources, storage guards and a one-way Mac reading copy.
+- **Stack:** Ubuntu, systemd, Pi-hole/Unbound, Prometheus, Grafana, Python and SQLite.
+- **Recorded validation:** external missing-heartbeat alert received on Telegram;
+  restricted Mac backup pull restored, with 14 archives and two database snapshots checked.
+- **Engineering focus:** observable failures, bounded storage, reproducible
+  deployment and recovery procedures.
+- **Next milestone:** a full restore onto a clean host. Power recovery and network
+  detection exercises remain unvalidated.
 
-[Project overview and evidence](https://github.com/markpierotti/home-lab/blob/main/docs/portfolio-copy.md)
+[Project overview](https://github.com/markpierotti/home-lab/blob/main/docs/portfolio-copy.md)
 · [Operations runbook](https://github.com/markpierotti/home-lab/blob/main/docs/slim-operations.md)
 · [Roadmap](https://github.com/markpierotti/home-lab/blob/main/docs/home-lab-roadmap.md)
 
-Network segmentation, Project Limbo and detection/investigation exercises remain
-planned. I describe this as a home networking and security lab in development;
-a deployed SOC is future work.
-
-## Other projects
-
-### [Soul Eats Kitchen](https://souleatskitchen.org)
-
-I developed the live website for a community meal initiative. The site presents its
-mission, outreach and catering information, with donation and support options.
-
-### Self-exclusion application and desktop rebuild
-
-My self-exclusion project includes a completed local HTML/JavaScript application
-for managing records, preparing forms and supporting a separate read-only viewer,
-packaged with a Go launcher. My Tauri/Rust and React/TypeScript desktop rebuild
-is in development.
-
-The project is private. I plan to write a sanitized case study documenting the
-preserved original, engineering decisions, testing and the transition between
-implementations.
-
-### Herbert Tipping
-
-I’m developing a sports tipping application with Next.js, TypeScript and Supabase.
-The work includes authentication, competition-rule clarification, scoring review
-and user-interface design. It is not presented as a deployed service.
-
-### Hermes Venture Studio
-
-My local AI-assisted development workflow covers product intake, scoped roles,
-isolated worktrees, review gates and a shared evidence-based learning register.
-I’m preparing a case study of the workflow’s mechanisms, corrections and limits.
-
-### Planned: Project Limbo — networking art
-
-**What if a noisy smart coffee machine got sent to Inception’s Limbo?**
-
-I’m planning a networking art experiment: a simulated IoT coffee machine inside
-an Inception-inspired lab topology. The visual theme makes the boundaries memorable;
-the engineering will measure traffic visibility, isolation and detection through
-controlled experiments. No completed lab results are claimed yet.
-
 ## How I work
 
-I aim to make engineering claims traceable to source, tests and observed behavior.
-I use AI tools openly, reproduce failures, preserve evidence and distinguish
-successful trials from broader reliability claims.
+I use AI tools openly and assess their output through source review, tests and
+observed behaviour. I distinguish what I directed and operated from what an
+assistant implemented or verified.
 
-I’m currently focusing on Linux process handling, defensive parsing, embedded
-telemetry and reproducible deployment. My next Home Lab milestone is a full restore
-rehearsal, followed by controlled restart, power-recovery and longer-running checks.
+[Read two engineering examples](docs/engineering-approach.md): preserving cleanup
+uncertainty after a connection recovers, and catching a publication failure after
+a working backup repair.
 
-## Interests and opportunities
+## Other project experience
 
-- Networking, cybersecurity and security monitoring.
-- Applied AI engineering and agent orchestration.
-- Embedded Linux, reverse engineering and useful hardware repurposing.
-- Practical application development, reproducible tests and documented evidence.
+- **[Soul Eats Kitchen](https://souleatskitchen.org):** developed the live website
+  for a community meal initiative, presenting its mission, outreach, catering and
+  support options.
+- **Self-exclusion application:** completed an HTML/JavaScript application for
+  record management, form preparation and a separate read-only viewer. Source is
+  private; further rebuild work is in progress.
+- **Herbert Tipping:** a sports tipping application in development, covering
+  competition rules, authentication, scoring and interface design.
+- **Venture Studio:** a developing local workflow for AI-assisted delivery,
+  including scoped tasks, review gates and evidence records. Its effectiveness
+  is not presented as a measured result.
 
-I’m interested in graduate or junior networking and cybersecurity roles, and junior
-applied AI engineering or agent-orchestration opportunities.
+I’m continuing to deepen my networking and systems knowledge through these
+projects, with an emphasis on troubleshooting, explaining technical decisions
+clearly and producing work that others can inspect.
