@@ -14,7 +14,7 @@ AI-assisted implementation, with clear records of decisions, results and limits.
 
 ### [ASUS Router Telemetry](https://github.com/markpierotti/asus-router-telemetry)
 
-Making a stock ASUS router observable without replacing its firmware: a temporary
+I made a stock ASUS router observable without replacing its firmware using a temporary
 ARM C reporter and an external Python SSH collector.
 
 - **Validated on hardware:** 14 successful healthy-path samples; a separate
@@ -30,8 +30,8 @@ ARM C reporter and an external Python SSH collector.
 
 ### [Home Lab](https://github.com/markpierotti/home-lab)
 
-Operating a Linux environment for DNS filtering, router telemetry, monitoring,
-alert delivery and private evidence preservation.
+I operate a Linux environment for DNS filtering, router telemetry, monitoring,
+alert delivery and private evidence preservation. I am building a defensive SOC to protect my own systems.
 
 - **Stack:** Ubuntu, systemd, Pi-hole/Unbound, Prometheus, Grafana, Python and SQLite.
 - **Recorded validation:** external missing-heartbeat alert received on Telegram;
@@ -45,6 +45,13 @@ alert delivery and private evidence preservation.
 · [Operations runbook](https://github.com/markpierotti/home-lab/blob/main/docs/slim-operations.md)
 · [Roadmap](https://github.com/markpierotti/home-lab/blob/main/docs/home-lab-roadmap.md)
 
+**My November case studies:**
+
+- [Infrastructure maintenance and recovery](https://github.com/markpierotti/home-lab/blob/main/docs/case-studies/infrastructure-maintenance-and-recovery.md)
+- [AI-assisted monitoring during provider failure](https://github.com/markpierotti/home-lab/blob/main/docs/case-studies/ai-provider-failure-and-recovery.md)
+- [Telemetry evidence preservation and mirror recovery](https://github.com/markpierotti/home-lab/blob/main/docs/case-studies/telemetry-vault-retry-and-recovery.md)
+- [Workstation security incident recovery and hardening](https://github.com/markpierotti/home-lab/blob/main/docs/case-studies/workstation-security-and-recovery.md)
+
 ## How I work
 
 I use AI tools openly and assess their output through source review, tests and
@@ -57,9 +64,9 @@ a working backup repair.
 
 ## Other project experience
 
-- **[Soul Eats Kitchen](https://souleatskitchen.org):** developed and maintain the live website
-  for a community meal initiative, presenting its mission, outreach, catering and
-  support options.
+- **[Soul Eats Kitchen](https://souleatskitchen.org):** I developed and maintain the live website
+  for a community meal initiative. I use a dedicated Hermes profile and scheduled
+  application-health checks to monitor service availability, errors and recovery.
 - **Self-exclusion application:** completed an HTML/JavaScript application for
   record management, form preparation and a separate read-only viewer. Source is
   private; further rebuild work is in progress.
